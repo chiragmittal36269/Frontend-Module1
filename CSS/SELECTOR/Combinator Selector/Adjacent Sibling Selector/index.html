@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adjacent Sibling Selector</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <!-- h1 + h2 is not applicable for this because it is present above the h1 and we want the immediate next to h1 tag. -->
+    <h2>heading2</h2>
+
+    <h1>heading1.1</h1>
+
+    <!-- the h1 will only impact the immediate tag so it works only immediate next h2 tag not the next to next h2 tag. -->
+    <!-- it will only work for heading2.1 not work for heading2.2 -->
+    <h2>heading2.1</h2>
+
+    <!-- h1 + h2 is not applicable for this because it is not the immediate next to the h1 tag
+    so h1 is not able to make the style to heading 2.2 -->
+    <h2>heading2.2</h2>
+
+
+
+    <h1>heading1.2</h1>
+
+    <h3>heading3.2</h3>
+
+    <!-- it will not work for heading2.3 because heading2.3 is not the immediate sibling of heading1.2. 
+    i.e. h2 tag is not the immediate next of h1 tag. -->
+    <h2>heading2.3</h2>
+
+
+    <h3>heading3.1</h3>
+
+    <h4 class="class1">heading4.1</h4>
+
+    <h5>heading5.1</h5>
+
+    <h6 id="id2">heading6.1</h6>
+
+    <p>paragraph</p>
+
+    <div>
+        <h1>heading1.1</h1>
+
+        <!-- the h1 will only impact the immediate tag so it works only previous h2 tag not the next h2 tag. -->
+        <h2>heading2.1</h2>
+
+        <h2>heading2.2</h2>
+
+        <h1>heading1.1</h1>
+
+        <h3>heading3.1</h3>
+
+        <h4 class="class1">heading4.1</h4>
+
+        <h5>heading5.1</h5>
+
+        <h6 id="id2">heading6.1</h6>
+
+        <p>paragraph</p>
+
+        <h6 class="class2">heading6.2</h6>
+
+        <h6 id="id1">heading6.3</h6>
+
+        <h6 id="id1">heading6.3</h6>
+
+        <h6 class="class2">heading6.2</h6>
+    </div>
+</body>
+</html>

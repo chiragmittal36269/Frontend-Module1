@@ -1,0 +1,146 @@
+*{
+    margin: 0px;
+    list-style: none;
+}
+body{
+    /* background-color: black; */
+    background-color: #1E1E1E;;
+    height: 200vh;
+}
+
+/* navbar */
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #FCAF02;
+    height: 60px;
+    /* position: fixed;
+    width: 100%; */
+    position: sticky;
+    top: 0px;
+    width: 100%;
+}
+
+.section1 ul{
+    display: flex;
+}
+
+.section1 .logo a{
+    text-decoration: none;
+    margin-left: 30px;
+    color: #000000;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 39px;
+}
+
+.section1 .links a{
+    text-decoration: none;
+    margin-right: 55px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 34px;
+    color: #000000;
+}
+
+
+/* introduction */
+.section2{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-top: 40px;
+}
+
+.section2 .para1{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 78px;
+    color: #FFFFFF;
+    margin-left: 58px;
+}
+
+.section2 .para2{
+    margin-top: 33px;
+    margin-left: 63px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+
+.section2 .btn{
+    background: #FCAF02;
+    border-radius: 500px;
+    padding: 10px 70px;
+    margin-top: 40px;
+    margin-left: 63px;
+
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 39px;
+    color: #000000;
+}
+
+.section2 div img{
+    margin-right: 20px;
+    width: 550px;
+    height: 450px;
+}
+
+
+/* Contact Us */
+.section3{
+    margin-top: 60px;
+    width: 100%;
+    margin-left: 30px;
+}
+
+.section3 p{
+    font-size: 45px;
+    margin-left: 30px;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 78px;
+    color: #FCAF02;
+}
+
+.section3 form .div1{
+    display: flex;
+    flex-direction: column;
+    margin: 20px 30px 20px 60px;
+}
+
+#email{
+    margin-top: 40px;
+}
+
+#city{
+    /* display: flex; */
+    /* justify-content: s; */
+    width: 30%;
+    margin-left: 20px;
+}
+#tel{
+    width: 30%;
+}
+
+/* .section3 form .div2{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid red;
+    background-color: white;
+} */

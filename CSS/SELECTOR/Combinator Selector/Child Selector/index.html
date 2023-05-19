@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Child Selector</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <p>paragraph7</p>
+    <div>
+        <p>paragraph1</p>
+        <div>
+            <p>paragraph2</p>
+            <span>
+                <!-- color of paragraph3 is not changed 
+                    because it it is not the direct child of div tag. 
+                    It is the grandchild of div tag and direct child of span tag. -->
+                <p>paragraph3</p>
+            </span>
+            <p>paragraph4</p>
+        </div>
+        <p>paragraph5</p>
+    </div>
+    <p>paragraph6</p>
+</body>
+</html>
+
+<!-- paragraph6 and paragraph7 is not the child of div so not having any styles of these tags. -->

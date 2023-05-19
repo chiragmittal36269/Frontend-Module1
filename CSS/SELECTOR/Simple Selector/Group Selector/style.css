@@ -1,0 +1,20 @@
+h5, p{
+    color: darkgoldenrod;
+}
+
+.class2{
+    font-size: 30px;
+}
+
+#id2{
+    font-family: 'segoe print';
+    font-size: larger;
+}
+
+/* .class2, #id2{
+    color: violet;
+} */
+
+.class2, h6, #id2{
+    color: violet;
+}

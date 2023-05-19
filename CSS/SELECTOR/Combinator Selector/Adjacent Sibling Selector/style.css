@@ -1,0 +1,50 @@
+.class1{
+    color: orange;
+}
+
+.class2{
+    border: 4px solid green;
+}
+
+#id1{
+    color: red;
+}
+
+#id2{
+    border: 10px solid purple;
+}
+
+h1 + h2{
+    font-family: 'segoe print';
+}
+
+/* immediate next h5 tag after class1 */
+.class1 + h5{
+    font-weight: 800;
+    font-size: xx-large;
+    font-family: 'segoe print';
+}
+
+/* immediate next p tag after id2 */
+#id2 + p{
+    font-size: x-large;
+    font-family: 'segoe print';
+}
+
+/* immediate next id1 after class2 */
+.class2 + #id1{
+    font-size: xx-large;
+}
+
+/* immediate next class2 after id1 */
+#id1 + .class2{
+    font-size: xx-large;
+}
+
+p + .class1{
+    Property Name: Value of the property;
+}
+
+p + #id1{
+    Property Name: Value of the property;
+}

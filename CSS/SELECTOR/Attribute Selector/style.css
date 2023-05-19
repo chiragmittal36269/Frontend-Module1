@@ -1,0 +1,24 @@
+/* selector[attribute_name="attribute_value"]{
+    property:value;
+ } */
+
+ input[type="text"]{
+    color: orange;
+    border: 10px solid green;
+ }
+
+ input[type="email"]{
+    color: blue;
+    border: 10px solid red;
+    border-radius: 10px;
+ }
+
+
+ 
+ /* we use it using group selector if two attribute selector have same style. */
+
+ /* input[type="email"], input[type="text"]{
+    color: blue;
+    border: 10px solid red;
+    border-radius: 10px;
+ } */

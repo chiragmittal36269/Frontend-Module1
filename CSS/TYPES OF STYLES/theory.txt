@@ -1,0 +1,3 @@
+Inline CSS is on the top priority.
+Internal and External is depend on the writing statement like which one comes last is implemented first.
+last in first implemented.

@@ -1,0 +1,12 @@
+Id selector:- It select the html element with the use of specific id attribute.
+we write the id using '#' symbol. and when we want to use it then we write id="nameOfId".
+it can also be internal and external.
+
+ex:- #one is the name of id which is written in head tag and when we want to use it then we write id="one" in the body tag and the place where we want to use it.
+
+#one{
+    color: yellow;
+}
+#two{
+    color: violet;
+}

@@ -1,0 +1,3 @@
+Inline CSS:- when the style is written on the same line in the body tag, then it is called inline CSS.
+
+style= "property_name: value of the property"

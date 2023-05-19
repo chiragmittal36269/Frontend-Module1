@@ -1,0 +1,30 @@
+In case of class we can use multiple class for a particular tag.
+we can use it by making a space ' ' between two classes.
+
+Ex:- 
+.class1{
+    color: orange;
+}
+
+.class2{
+    border: 1px;
+}
+
+#id1{
+    color: pink;
+}
+
+#id2{
+    border: 2px;
+}
+
+using 2 class in a single tag
+<p class="class1 class2">hello</p>
+
+using 2 id in a single tag
+but it is not working because id is used to uniquely identify so how to make 2 id in a single tag.
+<p id="id1 id2">hello</p>      ##(not working)
+
+using one class and one id
+<p class="class1" id="id1">hello</p>
+<p id="id1" class="class1">hello</p>

@@ -1,0 +1,12 @@
+Class selector:- It selects html element with the use of specific class attribute.
+we write the class by using '.' symbol and we use it using class="nameOfClass"
+it can also be internal and external.
+
+ex:- .first is the name of class and when we use it then we write class="first"
+
+.first{
+    color: yellow;
+}
+.second{
+    color: violet;
+}

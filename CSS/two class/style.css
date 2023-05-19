@@ -1,0 +1,16 @@
+.class2{
+    border: 5px solid purple;
+    color: orange;
+}
+
+.class1{
+    color: green;
+}
+
+#id1{
+    color: blue;
+}
+
+#id2{
+    border: 6px solid orange;
+}

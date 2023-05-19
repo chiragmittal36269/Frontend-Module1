@@ -1,0 +1,52 @@
+Pseudo-Class Selector:- Pseudo means false.
+
+A pseudo-class is used to define a special state of an element.
+For example, it can be used to:
+Style an element when a user mouses over it
+Style visited and unvisited links differently
+Style an element when it gets focus
+
+The syntax of pseudo-classes:
+
+selector:pseudo-class {
+  property: value;
+}
+Example
+/* unvisited link */
+a:link {
+  color: #FF0000;
+}
+
+/* visited link */
+a:visited {
+  color: #00FF00;
+}
+
+/* mouse over link */
+a:hover {
+  color: #FF00FF;
+}
+
+/* selected link */
+a:active {
+  color: #0000FF;
+}
+
+link:- https://www.w3schools.com/css/css_pseudo_classes.asp#:~:text=All%20CSS%20Pseudo%20Classes
+
+
+Pseudo-class are those classes that are based on the certain events.
+
+here we are also using tags, class, id.
+
+.class:hover{
+
+}
+
+#id:hover{
+
+}
+
+p:hover{
+    
+}

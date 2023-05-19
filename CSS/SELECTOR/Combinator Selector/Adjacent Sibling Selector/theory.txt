@@ -1,0 +1,45 @@
+Adjacent Sibling Selector:- it targets the immediate next sibling of the given one.
+It does not target all the siblings as like in general sibling Selector.
+it is used with the help of '+' symbol.
+
+ex:-
+this will select the immediate next p tag comes after h1 tag.
+if their is any other tag present in between h1 and p tag 
+then color of p tag is not changed because p tag is not the immediate tag after h1 tag.
+h1 + p{
+    color: orange;
+}
+
+
+h1 + h2{
+    font-family: 'segoe print';
+}
+this will impact the immediate h2 tag which is next to h1 tag. not the other h2 tag which comes after h2 tag.
+
+here we also do the things with class and id.
+
+like:-
+
+p + .class{
+
+}
+
+p + #id{
+
+}
+
+.class + p{
+
+}
+
+#id + p{
+
+}
+
+.class + #id{
+
+}
+
+#id + .class{
+
+}

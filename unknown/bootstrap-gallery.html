@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+	<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.css" integrity="sha512-NVt7pmp5f+3eWRPO1h4A1gCf4opn4r5z2wS1mi7AaVcTzE9wDJ6RzMqSygjDzYHLp+mAJ2/qzXXDHar6IQwddQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+	<!-- the entire body must be written by student -->
+
+
+    <div class="gallery">
+        <a href="img/2-1.jpg" data-caption="Image caption">
+            <img src="img/thumbnails/2-1.jpg" alt="First image">
+        </a>
+        <a href="img/2-2.jpg">
+            <img src="img/thumbnails/2-2.jpg" alt="Second image">
+        </a>
+        ...
+    </div>
+
+
+    <script type="text/javascript" src="./script.js">
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.11.1/baguetteBox.min.js" integrity="sha512-7KzSt4AJ9bLchXCRllnyYUDjfhO2IFEWSa+a5/3kPGQbr+swRTorHQfyADAhSlVHCs1bpFdB1447ZRzFyiiXsg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+window.addEventListener('load', function() {
+    baguetteBox.run('.gallery');
+});
+</script>
+</body>
+
+</html>

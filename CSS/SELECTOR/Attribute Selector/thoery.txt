@@ -1,0 +1,4 @@
+Attribute Selector:- It is used to target the attribute and it is mainly used in input tag.
+
+syntax:- 
+selector[attribute_name="attribute_value"]

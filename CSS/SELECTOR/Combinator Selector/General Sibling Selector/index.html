@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>General Sibling Selector</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <p>para1</p>
+    <p>para2</p>
+    <h1>heading1</h1>
+    <p>para3</p>
+    <p>para4</p>
+    <h2>heading5</h2>
+    <h2>heading6</h2>
+    <div>
+        <p>para5</p>
+        <p>para6</p>
+        <h1>heading2</h1>
+        <p>para7</p>
+        <p>para8</p>
+    </div>
+    <p>para9</p>
+    <p>para10</p>
+    <h2>heading3</h2>
+    <h2>heading4</h2>
+
+    <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae ut laborum quis hic mollitia optio illum, magni repudiandae. Deserunt eum numquam ex ratione soluta voluptatum nesciunt officiis inventore aspernatur. Amet?</h3>
+    <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. At a sed deleniti nihil eos expedita minima fuga asperiores voluptas cumque, odit, porro obcaecati nobis quod, laboriosam quidem saepe numquam. Totam.</h3>
+    <h4 class="class1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima laborum dolorum libero itaque, vel odio quidem veritatis, fugit harum voluptas culpa delectus earum aliquam, nobis reiciendis inventore voluptatibus a quis?</h4>
+    <h4 id="id1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga, voluptas quos? Quae error quibusdam ipsum blanditiis? Nesciunt, quod praesentium? Pariatur, cumque sit! Delectus, dignissimos soluta? Repellendus iure doloremque illo minus!</h4>
+    <h5 id="id1" class="class1">Hello.</h5>
+    <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam praesentium esse, reiciendis consequuntur aliquid quae facere veniam at voluptas ea accusamus ab quidem id! Nemo ipsum aliquid adipisci! Ducimus, tempora?</h5>
+    <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium aliquam perferendis esse velit nam itaque minus tenetur ea excepturi vero, veritatis rem voluptates, quis maxime rerum ipsa sequi! Enim, voluptatem.</h6>
+    <h6>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro aliquid eaque harum fugit provident voluptate eos molestiae optio, labore illum suscipit aut dignissimos obcaecati ab voluptatem similique eius officiis facilis?</h6>
+</body>
+</html>
+
+<!-- In this para1, para2 is not considered because it is present above the heading1. para5, para6 is also having the same issue like these are also present above the heading2, but these are present below the heading1 but para5 and para6 are not the sibling of heading1 so it is not considered. -->
+<!-- same thing is happening with heading5 and heading6 these are present above the div tag so not considered. -->

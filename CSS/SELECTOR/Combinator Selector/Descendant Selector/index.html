@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descendant Selector</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <p>paragraph1</p>
+    <div>
+        <p>paragraph2</p>
+        <span>
+            <p>paragraph3</p>
+            <div>
+                <p>paragraph4</p>
+                <span>
+                    <span>
+                        <span>
+                            <p>paragraph5</p>
+                        </span>
+                    </span>
+                </span>
+            </div>
+            <p>paragraph6</p>
+        </span>
+        <p>paragraph7</p>
+        <h1>heading1</h1>
+    </div>
+    <p>paragraph8</p>
+</body>
+</html>
+
+
+<!-- paragraph1 and paragraph8 are not the child of div tag so not taken into consideration.
+heading1 is not considered because we are not using 'div h1{}' -->
+
+<!-- paragraph5 is the great grand child of div but it also considered because div is the descendant of paragraph5 also. -->
+
+<!-- but in case of child selector paragraph3,paragraph5,paragraph6 is also not considered because these are not the direct child of div tag. -->

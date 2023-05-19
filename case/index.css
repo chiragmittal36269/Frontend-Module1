@@ -1,0 +1,40 @@
+.red{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-color: red;
+}
+
+.green{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    background-color: green;
+}
+
+.blue{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 120px;
+    left: 120px;
+    background-color: blue;
+}
+
+.yellow{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 160px;
+    left: 160px;
+    background-color: yellow;
+}
+
+div:hover{
+    z-index: 1;
+    cursor: pointer;
+}

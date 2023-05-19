@@ -1,0 +1,91 @@
+General Sibling Selector:- it target all the particular tag which comes after a given tag, and all the tags are on the same level.
+ex:- p ~ h1{
+
+}
+In the above example we count all the h1 tag which comes after p tag, and all h1 are also on the same level on which p tag exists.
+
+
+It targets all the general siblings of you which comes after you.
+it is used with the help of '~' symbol.
+
+Ex:- In the below example h1 is the sibling of p. So, all the h1 which comes after p is having green color.
+but all h1 are sibling not the child of someone.
+i.e. target all the h1 tags which are the siblings of p tag and comes after p tag, and all the h1 tags that are on the same level of p tags.
+p ~ h1{
+    color: green;
+}
+
+target all the h1 tags which are the siblings of div tag and comes after div tag, and all the h1 tags that are on the same level of div tags. 
+div ~ h1{
+    color: orange;
+}
+
+target all the p tags which are the siblings of div tag and comes after div tag, and all the p tags that are on the same level of div tags.
+div ~ p{
+    color: pink;
+}
+
+target all the p tags which are the siblings of h1 tag and comes after h1 tag, and all the p tags that are on the same level of h1 tags.
+h1 ~ p{
+    color: yellow;
+}
+
+we can also use:-
+1. class and tag:-
+.class1 ~ p{
+    color: yellow;
+}
+
+2. id and tag:-
+#id1 ~ p{
+    color: yellow;
+}
+
+3. class and id:-
+.class1 ~ #id1{
+    color: yellow;
+}
+
+4. vice-versa
+tag and class:-
+p ~ .class1{
+    color: yellow;
+}
+
+tag and id:-
+p ~ #id1{
+    color: yellow;
+}
+
+id and class:-
+#id ~ class1{
+    color: yellow;
+}
+
+here we also do the things with class and id.
+
+like:-
+
+p ~ .class{
+
+}
+
+p ~ #id{
+
+}
+
+.class ~ p{
+
+}
+
+#id ~ p{
+
+}
+
+.class ~ #id{
+
+}
+
+#id ~ .class{
+
+}

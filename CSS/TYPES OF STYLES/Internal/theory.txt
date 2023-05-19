@@ -1,0 +1,31 @@
+Internal CSS:- when the style is written in head tag and we are using it directly or with the help of class and id.
+
+<style>
+        p{
+            color: pink;
+        }
+        .one{
+            color: yellow;
+        }
+        #two{
+            color: orange;
+        }
+</style>
+
+this style is written in head tag.
+
+p{} this is applicable directly for all the paragraphs. ex:- p tag, h1 tag, g2 tag etc.
+
+.nameOfAny is a class which is used when we write class="one"
+
+#nameOfAny is a id which is used when we write id="two"
+
+it is like:-
+selector{
+Property:value;
+}
+Ex;-
+p{
+    color: pink;
+ }
+here p is a selector.

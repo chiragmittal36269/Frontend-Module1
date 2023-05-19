@@ -1,0 +1,40 @@
+Group selector:- It selects group of html elements to give the same style.
+it can also be internal and external.
+we can use the group selector using ',' symbol.
+
+ex:- it select multiple tags at the same time to give the same style.
+In this we can group the tags and attribute also.
+like p and h1 are tags but .class and #id are attributes.
+
+we can make tag and tag
+
+h1, p{
+    color: maroon;
+}
+
+
+we can make class and id
+
+.class, #id{
+    color: orange;
+}
+
+
+we can make tag and class
+
+p, .class{
+    color: red;
+}
+
+
+we can make tag and id
+h1, #id{
+    color: pink;
+}
+
+
+we can make tag, class and id
+p, h1, .class, #id{
+    color: orange;
+}
+

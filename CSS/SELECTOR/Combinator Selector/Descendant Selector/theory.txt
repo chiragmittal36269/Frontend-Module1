@@ -1,0 +1,37 @@
+Descendant Selector:- It select all the child and grandchild of the tag which is mentioned.
+it target all the descendant of the element.
+it is used with the help of space ' ' symbol.
+
+ex:-
+p h1{
+    property: value;
+}
+in this we select all the h1 child of p tag and provide them styles.
+
+here we also do the things with class and id.
+
+like:-
+
+p  .class{
+    property: value;
+}
+
+p  #id{
+    property: value;
+}
+
+.class  p{
+    property: value;
+}
+
+#id  p{
+    property: value;
+}
+
+.class  #id{
+    property: value;
+}
+
+#id  .class{
+    property: value;
+}

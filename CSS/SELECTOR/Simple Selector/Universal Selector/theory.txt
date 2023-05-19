@@ -1,0 +1,10 @@
+Universal selector:- It select all the html elements written in the body tag.
+we write universal using '*' symbol.
+it can be internal and external.
+.css file can only be used when we are using link tag and provide the address of that .css file in href.
+
+ex:- 
+
+*{
+    color: maroon;
+}

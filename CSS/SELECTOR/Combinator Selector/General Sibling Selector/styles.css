@@ -1,0 +1,38 @@
+h1 ~ p{
+    color: orange;
+    font-size: 30px;
+}
+
+div ~ h2{
+    color: yellowgreen;
+}
+
+.class1{
+    color: purple;
+}
+
+#id1{
+    color: maroon;
+}
+
+h3 ~ .class1{
+    font-size: 65px;
+}
+
+h3 ~ #id1{
+    font-size: 40px;
+    border: 1px solid black;
+}
+
+.class1 ~ h6{
+    color: mediumseagreen;
+}
+
+#id1 ~ h5{
+    color: red;
+}
+
+.class1 ~ #id1{
+    border-radius: 10px;
+    color: aqua;
+}

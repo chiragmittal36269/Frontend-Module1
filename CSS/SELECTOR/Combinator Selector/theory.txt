@@ -1,0 +1,3 @@
+combinator selector are the selector that shows a relationship between two selectors.
+
+combination of more then one selector that has some relationship between them

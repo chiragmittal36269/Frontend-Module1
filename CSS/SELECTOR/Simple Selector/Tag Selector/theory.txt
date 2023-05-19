@@ -1,0 +1,16 @@
+Tag Selector:- It is used to select all similar type of tag element and give it the style written in it.
+
+Ex:- p tag, h1 tag, h2 tag etc.
+In this all p tag has the same style until a class or id is used. The things is happen with h1 and h2 tag and other tags also.
+
+like:-
+p{
+    color: blue;
+}
+h1{
+    color: orange;
+}
+
+here all p tag have color blue and all h1 tag have color orange. and if we write other tags then it follow the styles.
+
+we can write styles using internal and external way. So, we implement in both the way.

@@ -1,0 +1,17 @@
+.class1{
+    color: orange;
+    font-size: 30px;
+}
+
+.class2{
+    border: 1px solid black;
+}
+
+#id1{
+    color: pink;
+}
+
+#id2{
+    border: 2px;
+    font-size: 30px;
+}

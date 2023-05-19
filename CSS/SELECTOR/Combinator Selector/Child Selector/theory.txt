@@ -1,0 +1,38 @@
+Child Selector:- it select all the particular type of child tag of that tag. 
+but it will not work for the grand child. it only work for the direct child.
+it is used with the help of '>' symbol.
+
+ex:-
+h1 > p{
+
+}
+if p is the child of h1 tag then it will give all the style to that p tag.
+if there are many p tags and all are the direct child of h1 tag then the style is provided to all of them.
+
+here we also do the things with class and id.
+
+like:-
+
+p > .class{
+
+}
+
+p > #id{
+
+}
+
+.class > p{
+
+}
+
+#id > p{
+
+}
+
+.class > #id{
+
+}
+
+#id > .class{
+
+}
